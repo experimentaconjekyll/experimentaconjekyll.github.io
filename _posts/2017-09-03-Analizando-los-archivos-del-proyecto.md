@@ -13,8 +13,11 @@ podcast_link: https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDe
 comment: true
 ---
 <br>
+
 <center>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/9GrpNVw5UVE?ecver=1" frameborder="0" gesture="media" allowfullscreen></iframe>
+ <audio controls>
+  <source src="{{ page.podcast_link }}" type="audio/mp3">
+</audio>
 </center>
 <br>
 
