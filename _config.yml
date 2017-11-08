@@ -1,0 +1,58 @@
+# Site settings
+title: Experimenta con Jekyll 
+description: El Podcast con el que aprenderás a crear tu web con el generador de web estáticas Jekyll
+logo: /images/Logo.jpg
+baseurl: "/experimenta-con-jekyll/" # the subpath of your site, e.g. /blog
+url: "https://lormez16.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Laura
+user_description: 
+email: experimentaconjekyll@gmail.com
+twitter_username: lormez16
+github_username:  lormez16
+disqus_username: lorem_ipsum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+  - title: Web amigas
+    url: /webamigas
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+# Podcast Feed Settings
+podcast_url: https://lormez16.github.io/experimenta-con-jekyll/
+podcast_album_art: /images/Logo.jpg
+podcast_title: Experimenta con Jekyll
+podcast_owner: Laura
+podcast_email: experimentaconjekyll@gmail.com
+podcast_category: Technology
+podcast_subcategory_one: Software How-To
+podcast_explicit: "no"
+podcast_author: Laura
+podcast_description: Podcast sobre Jekyll y la generación de blog estáticos.
+podcast_summary: Podcast sobre Jekyll y la generación de blog estáticos. 
+podcast_subtitle: Podcast sobre Jekyll y la generación de blog estáticos. 
