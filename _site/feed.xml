@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experimenta con Jekyll</title>
+    <description>El Podcast con el que aprenderás a crear tu web con el generador de web estáticas Jekyll</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Nov 2017 21:31:30 +0100</pubDate>
+    <lastBuildDate>Wed, 08 Nov 2017 21:31:30 +0100</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>#04-Publicando el Blog con GitHub</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;En el episodio de hoy vamos a ver como podemos alojar nuestro blog en &lt;strong&gt;GitHub&lt;/strong&gt;. Lo haremos utilizando &lt;strong&gt;GitHub-Pages&lt;/strong&gt;, que es una opción que da GitHub para hacer una web de los proyectos.&lt;/p&gt; &lt;p&gt;En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.&lt;/p&gt; &lt;p&gt;Para ver como darse de alta y crear...</description>
+        <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/4/</link>
+        <guid isPermaLink="true">http://localhost:4000/4/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>GitHub</category>
+        
+        <category>Git</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>GitHub: Cómo crear un repositorio para tu blog</title>
+        <description>&lt;p&gt;En el &lt;a href=&quot;https://lormez16.github.io/experimenta-con-jekyll/4/&quot;&gt;episodio&lt;/a&gt; del podcast de esta semana hemos visto como publicar el blog en GitHub. Para que puedas verlo de una forma visual he preparado este pequeño tutorial de los pasos a seguir.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt; &lt;p&gt;Para registrarte en Github iremos a la &lt;a href=&quot;https://github.com/&quot;&gt;web&lt;/a&gt; y rellenamos los datos que nos pide para hacer un nuevo usuario.&lt;/p&gt; &lt;p&gt;&lt;br /&gt; &lt;img src=&quot;https://ia601507.us.archive.org/10/items/Haroopad1/episodio4-github0.png&quot; alt=&quot;web GitHub&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Una vez tenemos nuestro usuario vamos a crear un nuevo repositorio y así poder subir el proyecto. Desde tu perfil puedes acceder a tus repositorios y tienes la opción de crear uno...</description>
+        <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/repositorio en github/</link>
+        <guid isPermaLink="true">http://localhost:4000/repositorio en github/</guid>
+        
+        <category>GitHub</category>
+        
+        
+        <category>articulo</category>
+        
+      </item>
+    
+      <item>
+        <title>Editores: Haroopad y Bluefish</title>
+        <description>&lt;p&gt;En el &lt;a href=&quot;https://lormez16.github.io/experimenta-con-jekyll/3/&quot;&gt;episodio&lt;/a&gt; del podcast de esta semana hemos analizado los archivos del proyecto creado. Para ello hemos tenido que abrir esos archivos y aunque con un simple editor de texto plano es suficiente, mejor es utilizar editores específicos.&lt;/p&gt; &lt;p&gt;Comenté que haría un post de los editores que uso y aquí está.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;editor-para-markdown&quot;&gt;Editor para Markdown&lt;/h3&gt; &lt;p&gt;He probado varios editores de Markdown para distintos sistemas operativos pero desde hace un par de años siempre utilizo &lt;strong&gt;Haroopad&lt;/strong&gt;. Me es cómodo trabajar y tiene dos cosas que me gustan mucho:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Previsualización del documento.&lt;/li&gt; &lt;li&gt;Barra lateral con las opciones...</description>
+        <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/editores de markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/editores de markdown/</guid>
+        
+        <category>Editores</category>
+        
+        
+        <category>articulo</category>
+        
+      </item>
+    
+      <item>
+        <title>#03-Analizando los archivos del proyecto</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;En el episodio de hoy vamos a analizar el proyecto que hemos creado en local. Veremos que archivos tenemos y haremos unas mínimas modificaciones en el archivo de configuración.&lt;/p&gt; &lt;p&gt;Si ya los has estado mirando espero que este episodio te ayude a comprenderlos mejor. Y si no lo has hecho este es el mejor momento para continuar el proyecto y analizarlos.&lt;/p&gt; &lt;p&gt;Los &lt;strong&gt;archivos&lt;/strong&gt; que encontramos en el directorio son los siguientes:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ tree ├── about.md ├── _config.yml ├── Gemfile ├── index.md └── _posts └── 2017-08-25-welcome-to-jekyll.markdown...</description>
+        <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/3/</link>
+        <guid isPermaLink="true">http://localhost:4000/3/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Mínima</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>#02-Creando nuestro blog con Jekyll en local</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;amp;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Para crear nuestro primer blog y trabajar de forma local seguiremos los pasos indicados en la web principal de &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. En el mismo home te da las 4 lineas de comandos que necesitas para tener tu blog disponible en apenas unos minutos&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar.:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Paso 1&lt;/strong&gt;&lt;br /&gt; Abrimos la terminal y realizamos primero la comprobación de ruby escribiendo:&lt;/p&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Si está instalado te dará la versión de Ruby que tengas. En caso de no tenerlo lo instalas desde los...</description>
+        <pubDate>Mon, 07 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Local</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>#01-Qué es Jekyll y su estructura de archivos</title>
+        <description>&lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;La Estructura básica&lt;/strong&gt; de un sitio hecho con Jekyll es la siguiente:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ├── _config.yml ├── _includes │   ├── footer.html │   ├── header.html │   ├── index.md ├── _layouts │   ├── home.html │   ├── page.html │   ├── post.html ── _posts │   ├── 2017-05-02-experimenta-con-jekyll-Presentación.markdown │ ├── _sass │  ...</description>
+        <pubDate>Thu, 18 May 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/1/</link>
+        <guid isPermaLink="true">http://localhost:4000/1/</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+      <item>
+        <title>Experimenta con Jekyll | Presentación</title>
+        <description>&lt;center&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;amp;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Bienvenido al episodio de presentación de este podcast, &lt;strong&gt;Experimenta con Jekyll&lt;/strong&gt;. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/0/</link>
+        <guid isPermaLink="true">http://localhost:4000/0/</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>podcast</category>
+        
+      </item>
+    
+  </channel>
+</rss>

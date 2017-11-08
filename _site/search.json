@@ -1,0 +1,59 @@
+[
+  
+    {
+      "title"    : "#04-Publicando el Blog con GitHub",
+      "tags"     : "Jekyll, GitHub, and Git",
+      "categories"     : "podcast",
+      "url"      : "/4/",
+      "date"     : "17 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "GitHub: Cómo crear un repositorio para tu blog",
+      "tags"     : "GitHub",
+      "categories"     : "post",
+      "url"      : "/repositorio en github/",
+      "date"     : "17 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Editores: Haroopad y Bluefish",
+      "tags"     : "Editores",
+      "categories"     : "post",
+      "url"      : "/editores de markdown/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "#03-Analizando los archivos del proyecto",
+      "tags"     : "Jekyll and Mínima",
+      "categories"     : "podcast",
+      "url"      : "/3/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "#02-Creando nuestro blog con Jekyll en local",
+      "tags"     : "Jekyll and Local",
+      "categories"     : "podcast",
+      "url"      : "/2/",
+      "date"     : "07 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "#01-Qué es Jekyll y su estructura de archivos",
+      "tags"     : "Jekyll",
+      "categories"     : "podcast",
+      "url"      : "/1/",
+      "date"     : "18 May 2017"
+    } ,
+  
+    {
+      "title"    : "Experimenta con Jekyll | Presentación",
+      "tags"     : "Jekyll",
+      "categories"     : "podcast",
+      "url"      : "/0/",
+      "date"     : "02 May 2017"
+    } 
+  
+]

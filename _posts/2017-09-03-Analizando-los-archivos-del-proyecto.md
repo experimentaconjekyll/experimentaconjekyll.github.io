@@ -14,12 +14,7 @@ comment: true
 ---
 <br>
 <center>
-<audio controls>
-  <source src="{{ page.podcast_link }}" type="audio/mp3">
-
-</audio>
-
-[Descarga][mp3]
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&"></iframe>
 </center>
 <br>
 

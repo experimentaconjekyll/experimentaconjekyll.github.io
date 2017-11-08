@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+ 
+<channel>
+<title>Experimenta con Jekyll</title>
+<atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
+<link>http://localhost:4000</link>
+<description>Podcast sobre Jekyll y la generación de blog estáticos.</description>
+<lastBuildDate>Wed, 08 Nov 2017 21:31:30 +0100</lastBuildDate>
+<language>es-es</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://jekyllrb.com</generator>
+<itunes:summary>Podcast sobre Jekyll y la generación de blog estáticos.</itunes:summary>
+<itunes:author>Laura</itunes:author>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="http://localhost:4000/images/Logo.jpg" />
+<itunes:owner>
+<itunes:name>Laura</itunes:name>
+<itunes:email>experimentaconjekyll@gmail.com</itunes:email>
+</itunes:owner>
+<managingEditor>experimentaconjekyll@gmail.com (Laura)</managingEditor>
+<itunes:subtitle>Podcast sobre Jekyll y la generación de blog estáticos.</itunes:subtitle>
+<image>
+<title>Experimenta con Jekyll</title>
+<url>http://localhost:4000/images/Logo.jpg</url>
+<link>http://localhost:4000</link>
+</image>
+<itunes:category text="Technology">
+<itunes:category text="Software How-To" />
+<itunes:category text="" />
+</itunes:category>
+
+  <item>
+    <title>#04-Publicando el Blog con GitHub</title>
+    <link>http://localhost:4000/4/</link>
+    <comments>http://localhost:4000/4/#comments</comments>
+    <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
+    <dc:creator><![CDATA[]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <category><![CDATA[Jekyll]]></category>
+
+    <category><![CDATA[GitHub]]></category>
+
+    <category><![CDATA[Git]]></category>
+
+    <guid isPermaLink="true">http://localhost:4000/4/</guid>
+    <description>
+        <![CDATA[
+
+
+
+
+]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+</center>
+
+<p>En el episodio de hoy vamos a ver como podemos alojar nuestro blog en <strong>GitHub</strong>. Lo haremos utilizando <strong>GitHub-Pages</strong>, que es una opción que da GitHub para hacer una web de los proyectos.</p>
+
+<p>En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.</p>
+
+<p>Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.</p>
+
+<p>Para ver como darse de alta y crear el repositorio en <strong>GitHub</strong> leer el siguiente <a href="https://lormez16.github.io/experimenta-con-jekyll/repositorio en github/">Post</a>.</p>
+
+<p>Desde la carpeta en local abrimos una terminal.</p>
+
+<ul>
+  <li>Paso 1 - Iniciar git:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git init</code>
+<br /></p>
+
+<ul>
+  <li>Paso 2 - Rastrear todos los archivos:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git add .</code>
+<br /></p>
+
+<ul>
+  <li>Paso 3 - Guardar lo que ha encontrado con el primer commit:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git commit -m "primer commit"</code>
+<br /></p>
+
+<ul>
+  <li>Paso 4 - Conectar carpeta local con repositorio:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git remote add origin https://github.com/lormez16/prueba.git</code>
+<br /></p>
+
+<ul>
+  <li>Paso 5 -Subir los archivos:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git push</code></p>
+
+<p><br /></p>
+
+<p>Con unas pocas líneas de comando tendrás el Blog publicado.</p>
+
+<p>A partir de ahora para actualizar cambios o publicar nuevos post solo tendrás que realizar 3 de estos pasos, que son:</p>
+
+<p><code class="highlighter-rouge">$ git add .</code><br />
+<code class="highlighter-rouge">$ git commit -m "lo que actualizo"</code><br />
+<code class="highlighter-rouge">$ git push</code></p>
+
+<p><br /></p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Si lo prefieres utiliza el widget lateral para enviarme un <strong>audio-comentario</strong>.</p>
+
+<p>Puedes escuchar el podcast en <a href="https://itunes.apple.com/es/podcast/experimenta-con-jekyll/id1234086951?l=en">iTunes</a>, <a href="http://www.ivoox.com/podcast-experimenta-jekyll_sq_f1420014_1.html">ivoox</a>, canal de <a href="https://www.youtube.com/channel/UCstNysoGbtQi3WqUCyQ7eKA">Youtube</a> y en la web del podcast que es:</p>
+
+<p><a href="https://lormez16.github.io/experimenta-con-jekyll">https://lormez16.github.io/experimenta-con-jekyll</a></p>
+
+<p><br /></p>
+
+<hr />
+<p><br /></p>
+
+<p>Credito de Sintonia:
+<strong>“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI</strong><br />
+<a href="https://www.jamendo.com">Jamendo</a><br />
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+<!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/v6nlr21vd2ejbv25jd34rektczhqpr96.js';
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+
+<!-- End SpeakPipe code -->
+
+]]>
+    </content:encoded>
+
+    <enclosure url="https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3" length="" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[
+
+
+
+
+]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+</center>
+
+<p>En el episodio de hoy vamos a ver como podemos alojar nuestro blog en <strong>GitHub</strong>. Lo haremos utilizando <strong>GitHub-Pages</strong>, que es una opción que da GitHub para hacer una web de los proyectos.</p>
+
+<p>En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.</p>
+
+<p>Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.</p>
+
+<p>Para ver como darse de alta y crear el repositorio en <strong>GitHub</strong> leer el siguiente <a href="https://lormez16.github.io/experimenta-con-jekyll/repositorio en github/">Post</a>.</p>
+
+<p>Desde la carpeta en local abrimos una terminal.</p>
+
+<ul>
+  <li>Paso 1 - Iniciar git:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git init</code>
+<br /></p>
+
+<ul>
+  <li>Paso 2 - Rastrear todos los archivos:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git add .</code>
+<br /></p>
+
+<ul>
+  <li>Paso 3 - Guardar lo que ha encontrado con el primer commit:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git commit -m "primer commit"</code>
+<br /></p>
+
+<ul>
+  <li>Paso 4 - Conectar carpeta local con repositorio:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git remote add origin https://github.com/lormez16/prueba.git</code>
+<br /></p>
+
+<ul>
+  <li>Paso 5 -Subir los archivos:</li>
+</ul>
+
+<p><code class="highlighter-rouge">$ git push</code></p>
+
+<p><br /></p>
+
+<p>Con unas pocas líneas de comando tendrás el Blog publicado.</p>
+
+<p>A partir de ahora para actualizar cambios o publicar nuevos post solo tendrás que realizar 3 de estos pasos, que son:</p>
+
+<p><code class="highlighter-rouge">$ git add .</code><br />
+<code class="highlighter-rouge">$ git commit -m "lo que actualizo"</code><br />
+<code class="highlighter-rouge">$ git push</code></p>
+
+<p><br /></p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Si lo prefieres utiliza el widget lateral para enviarme un <strong>audio-comentario</strong>.</p>
+
+<p>Puedes escuchar el podcast en <a href="https://itunes.apple.com/es/podcast/experimenta-con-jekyll/id1234086951?l=en">iTunes</a>, <a href="http://www.ivoox.com/podcast-experimenta-jekyll_sq_f1420014_1.html">ivoox</a>, canal de <a href="https://www.youtube.com/channel/UCstNysoGbtQi3WqUCyQ7eKA">Youtube</a> y en la web del podcast que es:</p>
+
+<p><a href="https://lormez16.github.io/experimenta-con-jekyll">https://lormez16.github.io/experimenta-con-jekyll</a></p>
+
+<p><br /></p>
+
+<hr />
+<p><br /></p>
+
+<p>Credito de Sintonia:
+<strong>“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI</strong><br />
+<a href="https://www.jamendo.com">Jamendo</a><br />
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+<!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/v6nlr21vd2ejbv25jd34rektczhqpr96.js';
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+
+<!-- End SpeakPipe code -->
+
+]]></itunes:summary>
+    <itunes:author>Laura</itunes:author>
+    <itunes:image href="http://localhost:4000/images/Logo.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration></itunes:duration>
+  </item>
+
+  <item>
+    <title>#03-Analizando los archivos del proyecto</title>
+    <link>http://localhost:4000/3/</link>
+    <comments>http://localhost:4000/3/#comments</comments>
+    <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
+    <dc:creator><![CDATA[]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <category><![CDATA[Jekyll]]></category>
+
+    <category><![CDATA[Mínima]]></category>
+
+    <guid isPermaLink="true">http://localhost:4000/3/</guid>
+    <description>
+        <![CDATA[
+
+
+
+
+
+]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;"></iframe>
+</center>
+<p><br /></p>
+
+<p>En el episodio de hoy vamos a analizar el proyecto que hemos creado en local. Veremos que archivos tenemos y haremos unas mínimas modificaciones en el archivo de configuración.</p>
+
+<p>Si ya los has estado mirando espero que este episodio te ayude a comprenderlos mejor. Y si no lo has hecho este es el mejor momento para continuar el proyecto y analizarlos.</p>
+
+<p>Los <strong>archivos</strong> que encontramos en el directorio son los siguientes:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ tree
+
+├── about.md
+├── _config.yml
+├── Gemfile
+├── index.md
+└── _posts
+    └── 2017-08-25-welcome-to-jekyll.markdown
+
+1 directory, 5 files
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<h3 id="yaml-front-matter">Yaml Front Matter</h3>
+<p>Lo encontramos en la parte alta de muchos de los ficheros del proyecto, paginas, post y layout. En él se definen las variables que queremos usar en distintas partes de nuestra web.</p>
+
+<p>El siguiente ejemplo es el típico de un post.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2017-08-25 21:16:43 +0200
+categories: jekyll update
+---
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<h3 id="el-archivo-_configyml">El archivo _config.yml</h3>
+
+<p>En este archivo cambiaremos los datos que trae  por los nuestros. Título, descripción, correo y usuario de Twitter.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>title: Your awesome title
+
+email: your-email@domain.com
+
+description: &gt; 
+  Write an awesome description for your new site here. 
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "" # the base hostname &amp; protocol for your site, e.g. http://example.com
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Si lo prefieres utiliza el widget lateral para enviarme un <strong>audio-comentario</strong>.</p>
+
+<p>Puedes escuchar el podcast en iTunes, ivoox y en la web del podcast que es:</p>
+
+<p><a href="https://lormez16.github.io/experimenta-con-jekyll">https://lormez16.github.io/experimenta-con-jekyll</a></p>
+
+<p><br /></p>
+
+<hr />
+<p><br /></p>
+
+<p>Credito de Sintonia:
+<strong>“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI</strong><br />
+<a href="https://www.jamendo.com">Jamendo</a><br />
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+<!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/v6nlr21vd2ejbv25jd34rektczhqpr96.js';
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+
+<!-- End SpeakPipe code -->
+
+]]>
+    </content:encoded>
+
+    <enclosure url="https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3" length="" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[
+
+
+
+
+
+]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;"></iframe>
+</center>
+<p><br /></p>
+
+<p>En el episodio de hoy vamos a analizar el proyecto que hemos creado en local. Veremos que archivos tenemos y haremos unas mínimas modificaciones en el archivo de configuración.</p>
+
+<p>Si ya los has estado mirando espero que este episodio te ayude a comprenderlos mejor. Y si no lo has hecho este es el mejor momento para continuar el proyecto y analizarlos.</p>
+
+<p>Los <strong>archivos</strong> que encontramos en el directorio son los siguientes:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ tree
+
+├── about.md
+├── _config.yml
+├── Gemfile
+├── index.md
+└── _posts
+    └── 2017-08-25-welcome-to-jekyll.markdown
+
+1 directory, 5 files
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<h3 id="yaml-front-matter">Yaml Front Matter</h3>
+<p>Lo encontramos en la parte alta de muchos de los ficheros del proyecto, paginas, post y layout. En él se definen las variables que queremos usar en distintas partes de nuestra web.</p>
+
+<p>El siguiente ejemplo es el típico de un post.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2017-08-25 21:16:43 +0200
+categories: jekyll update
+---
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<h3 id="el-archivo-_configyml">El archivo _config.yml</h3>
+
+<p>En este archivo cambiaremos los datos que trae  por los nuestros. Título, descripción, correo y usuario de Twitter.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>title: Your awesome title
+
+email: your-email@domain.com
+
+description: &gt; 
+  Write an awesome description for your new site here. 
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "" # the base hostname &amp; protocol for your site, e.g. http://example.com
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+</code></pre>
+</div>
+<p><br /></p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Si lo prefieres utiliza el widget lateral para enviarme un <strong>audio-comentario</strong>.</p>
+
+<p>Puedes escuchar el podcast en iTunes, ivoox y en la web del podcast que es:</p>
+
+<p><a href="https://lormez16.github.io/experimenta-con-jekyll">https://lormez16.github.io/experimenta-con-jekyll</a></p>
+
+<p><br /></p>
+
+<hr />
+<p><br /></p>
+
+<p>Credito de Sintonia:
+<strong>“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI</strong><br />
+<a href="https://www.jamendo.com">Jamendo</a><br />
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+<!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/v6nlr21vd2ejbv25jd34rektczhqpr96.js';
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+
+<!-- End SpeakPipe code -->
+
+]]></itunes:summary>
+    <itunes:author>Laura</itunes:author>
+    <itunes:image href="http://localhost:4000/images/Logo.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration></itunes:duration>
+  </item>
+
+  <item>
+    <title>#02-Creando nuestro blog con Jekyll en local</title>
+    <link>http://localhost:4000/2/</link>
+    <comments>http://localhost:4000/2/#comments</comments>
+    <pubDate>Mon, 07 Aug 2017 00:00:00 +0200</pubDate>
+    <dc:creator><![CDATA[]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <category><![CDATA[Jekyll]]></category>
+
+    <category><![CDATA[Local]]></category>
+
+    <guid isPermaLink="true">http://localhost:4000/2/</guid>
+    <description>
+        <![CDATA[
+
+
+
+]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;"></iframe></center>
+
+<p><br /></p>
+
+<p>Para crear nuestro primer blog y trabajar de forma local seguiremos los pasos indicados en la web principal de <a href="http://jekyllrb.com/">Jekyll</a>.  En el mismo home te da las 4 lineas de comandos que necesitas para tener tu blog disponible en apenas unos minutos</p>
+
+<p>Veamos entonces que comandos hay que ejecutar.:</p>
+
+<p><strong>Paso 1</strong><br />
+ Abrimos la terminal y realizamos primero la comprobación de ruby escribiendo:</p>
+
+<p><code class="highlighter-rouge">$ ruby -v</code></p>
+
+<p>Si está instalado te dará la versión de Ruby que tengas.  En caso de no tenerlo lo instalas desde los repositorios. En el caso de Manjaro:</p>
+
+<p><code class="highlighter-rouge">$ sudo pacman -S ruby</code>
+<br /></p>
+
+<p><strong>Paso 2</strong><br />
+Instalamos las gemas jekyll y bundler. Las gemas de ruby se instalan con <code class="highlighter-rouge">gem install</code>.</p>
+
+<p>así que escribimos:</p>
+
+<p><code class="highlighter-rouge">$ gem install jekyll bundler</code></p>
+
+<p><strong>Paso 3</strong><br />
+Creamos el nuevo blog con el comando <code class="highlighter-rouge">jekyll new</code> seguido del nombre del blog. En mi caso sería:</p>
+
+<p><code class="highlighter-rouge">$ jekyll new experimenta-con-jekyll</code></p>
+
+<p>No se pueden dejar espacios entre las palabras del nombre sino guiones.</p>
+
+<p><strong>Paso 4</strong><br />
+Nos trasladamos a la carpeta nueva creada con el comando <code class="highlighter-rouge">cd</code></p>
+
+<p><code class="highlighter-rouge">$ cd experimenta-con-jekyll</code></p>
+
+<p>Y ahora ejecutamos el blog haciendo uso del servidor que trae Jekyll de la siguiente manera:</p>
+
+<p><code class="highlighter-rouge">$ bundle exec jekyll serve</code></p>
+
+<p>con este comando construira el blog y nos dara la url de localhost.</p>
+
+<p><code class="highlighter-rouge">http://localhost:4000</code></p>
+
+<p>colocas  esta dirección en el navegador y podras ver tu blog con la plantilla mínima que vienen por defecto.</p>
+
+<h2 id="posibles-errores">Posibles errores</h2>
+<ul>
+  <li>En Archlinux y derivadas como Manjaro, para poder ejecutar las gemas es necesario añadir la siguiente línea en el archivo ~/.bashrc del sistema .</li>
+</ul>
+
+<p><code class="highlighter-rouge">PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"</code></p>
+
+<p>Todo esto te lo indica la <a href="https://wiki.archlinux.org/index.php/Ruby">Wiki de Archlinux</a></p>
+
+<ul>
+  <li>Para ver las gemas instaladas por si nos falta alguna ejecutamos</li>
+</ul>
+
+<p><code class="highlighter-rouge">gem list</code></p>
+
+<p>y te dará el listado completo.</p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>twitter</strong> y <strong>telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Puedes escuchar el podcast en itunes, ivoox y en la web del podcast que es:</p>
+
+<p>https://lormez16.github.io/experimenta-con-jekyll</p>
+
+<p><br /></p>
+
+<p>Credito de Sintonia:
+**“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI ** (https://www.jamendo.com)
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+]]>
+    </content:encoded>
+
+    <enclosure url="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3" length="" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[
+
+
+
+]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<p><br /></p>
+<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;"></iframe></center>
+
+<p><br /></p>
+
+<p>Para crear nuestro primer blog y trabajar de forma local seguiremos los pasos indicados en la web principal de <a href="http://jekyllrb.com/">Jekyll</a>.  En el mismo home te da las 4 lineas de comandos que necesitas para tener tu blog disponible en apenas unos minutos</p>
+
+<p>Veamos entonces que comandos hay que ejecutar.:</p>
+
+<p><strong>Paso 1</strong><br />
+ Abrimos la terminal y realizamos primero la comprobación de ruby escribiendo:</p>
+
+<p><code class="highlighter-rouge">$ ruby -v</code></p>
+
+<p>Si está instalado te dará la versión de Ruby que tengas.  En caso de no tenerlo lo instalas desde los repositorios. En el caso de Manjaro:</p>
+
+<p><code class="highlighter-rouge">$ sudo pacman -S ruby</code>
+<br /></p>
+
+<p><strong>Paso 2</strong><br />
+Instalamos las gemas jekyll y bundler. Las gemas de ruby se instalan con <code class="highlighter-rouge">gem install</code>.</p>
+
+<p>así que escribimos:</p>
+
+<p><code class="highlighter-rouge">$ gem install jekyll bundler</code></p>
+
+<p><strong>Paso 3</strong><br />
+Creamos el nuevo blog con el comando <code class="highlighter-rouge">jekyll new</code> seguido del nombre del blog. En mi caso sería:</p>
+
+<p><code class="highlighter-rouge">$ jekyll new experimenta-con-jekyll</code></p>
+
+<p>No se pueden dejar espacios entre las palabras del nombre sino guiones.</p>
+
+<p><strong>Paso 4</strong><br />
+Nos trasladamos a la carpeta nueva creada con el comando <code class="highlighter-rouge">cd</code></p>
+
+<p><code class="highlighter-rouge">$ cd experimenta-con-jekyll</code></p>
+
+<p>Y ahora ejecutamos el blog haciendo uso del servidor que trae Jekyll de la siguiente manera:</p>
+
+<p><code class="highlighter-rouge">$ bundle exec jekyll serve</code></p>
+
+<p>con este comando construira el blog y nos dara la url de localhost.</p>
+
+<p><code class="highlighter-rouge">http://localhost:4000</code></p>
+
+<p>colocas  esta dirección en el navegador y podras ver tu blog con la plantilla mínima que vienen por defecto.</p>
+
+<h2 id="posibles-errores">Posibles errores</h2>
+<ul>
+  <li>En Archlinux y derivadas como Manjaro, para poder ejecutar las gemas es necesario añadir la siguiente línea en el archivo ~/.bashrc del sistema .</li>
+</ul>
+
+<p><code class="highlighter-rouge">PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"</code></p>
+
+<p>Todo esto te lo indica la <a href="https://wiki.archlinux.org/index.php/Ruby">Wiki de Archlinux</a></p>
+
+<ul>
+  <li>Para ver las gemas instaladas por si nos falta alguna ejecutamos</li>
+</ul>
+
+<p><code class="highlighter-rouge">gem list</code></p>
+
+<p>y te dará el listado completo.</p>
+
+<p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>twitter</strong> y <strong>telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
+
+<p>Puedes escuchar el podcast en itunes, ivoox y en la web del podcast que es:</p>
+
+<p>https://lormez16.github.io/experimenta-con-jekyll</p>
+
+<p><br /></p>
+
+<p>Credito de Sintonia:
+**“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI ** (https://www.jamendo.com)
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+]]></itunes:summary>
+    <itunes:author>Laura</itunes:author>
+    <itunes:image href="http://localhost:4000/images/Logo.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration></itunes:duration>
+  </item>
+
+  <item>
+    <title>#01-Qué es Jekyll y su estructura de archivos</title>
+    <link>http://localhost:4000/1/</link>
+    <comments>http://localhost:4000/1/#comments</comments>
+    <pubDate>Thu, 18 May 2017 00:00:00 +0200</pubDate>
+    <dc:creator><![CDATA[]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <category><![CDATA[Jekyll]]></category>
+
+    <guid isPermaLink="true">http://localhost:4000/1/</guid>
+    <description>
+        <![CDATA[
+
+
+
+]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;"></iframe>
+</center>
+
+<p>Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.</p>
+
+<p><strong>La Estructura básica</strong> de un sitio hecho con Jekyll es la siguiente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+├── _config.yml
+├── _includes
+│   ├── footer.html
+│   ├── header.html
+│   
+├── index.md
+├── _layouts
+│   ├── home.html
+│   ├── page.html
+│   ├── post.html
+── _posts
+│   ├── 2017-05-02-experimenta-con-jekyll-Presentación.markdown
+│
+├── _sass
+│   └── minima.scss
+├── css
+│   └── minima.css
+
+</code></pre>
+</div>
+
+<hr />
+
+<p><br /></p>
+
+<p><a href="lormez16.github.io/experimenta-con-jekyll">Web del podcast</a>
+Audio recomendado <a href="https://ugeek.github.io/052.-Jekyll-o-Wordpress/">¿Jekyll o WordPress?</a></p>
+
+<p>Credito de Sintonia:
+**“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI ** (https://www.jamendo.com)
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+]]>
+    </content:encoded>
+
+    <enclosure url="https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3" length="" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[
+
+
+
+]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;"></iframe>
+</center>
+
+<p>Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.</p>
+
+<p><strong>La Estructura básica</strong> de un sitio hecho con Jekyll es la siguiente:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+├── _config.yml
+├── _includes
+│   ├── footer.html
+│   ├── header.html
+│   
+├── index.md
+├── _layouts
+│   ├── home.html
+│   ├── page.html
+│   ├── post.html
+── _posts
+│   ├── 2017-05-02-experimenta-con-jekyll-Presentación.markdown
+│
+├── _sass
+│   └── minima.scss
+├── css
+│   └── minima.css
+
+</code></pre>
+</div>
+
+<hr />
+
+<p><br /></p>
+
+<p><a href="lormez16.github.io/experimenta-con-jekyll">Web del podcast</a>
+Audio recomendado <a href="https://ugeek.github.io/052.-Jekyll-o-Wordpress/">¿Jekyll o WordPress?</a></p>
+
+<p>Credito de Sintonia:
+**“Spring Whistle Ukulele Summer” de GIUSEPPE LORENZONI ** (https://www.jamendo.com)
+License Creative Commons</p>
+
+<p>Si te ha gustado compártelo en tus redes favoritas.</p>
+
+]]></itunes:summary>
+    <itunes:author>Laura</itunes:author>
+    <itunes:image href="http://localhost:4000/images/Logo.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration></itunes:duration>
+  </item>
+
+  <item>
+    <title>Experimenta con Jekyll | Presentación</title>
+    <link>http://localhost:4000/0/</link>
+    <comments>http://localhost:4000/0/#comments</comments>
+    <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
+    <dc:creator><![CDATA[]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <category><![CDATA[Jekyll]]></category>
+
+    <guid isPermaLink="true">http://localhost:4000/0/</guid>
+    <description>
+        <![CDATA[
+
+
+
+]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+</center>
+
+<p>Bienvenido al episodio de presentación de este podcast, <strong>Experimenta con Jekyll</strong>. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.</p>
+
+]]>
+    </content:encoded>
+
+    <enclosure url="https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3" length="" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[
+
+
+
+]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+</center>
+
+<p>Bienvenido al episodio de presentación de este podcast, <strong>Experimenta con Jekyll</strong>. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.</p>
+
+]]></itunes:summary>
+    <itunes:author>Laura</itunes:author>
+    <itunes:image href="http://localhost:4000/images/Logo.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration></itunes:duration>
+  </item>
+
+</channel>
+</rss>

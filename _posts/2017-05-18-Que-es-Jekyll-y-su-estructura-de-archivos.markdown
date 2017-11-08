@@ -13,14 +13,8 @@ image: /images/Logo.jpg
 podcast_link: https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3
 ---
 <center>
-<audio controls>
-  <source src="{{ page.podcast_link }}" type="audio/mp3">
-
-</audio>
-
-[Descarga][mp3]
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&"></iframe>
 </center>
-<br>
 
 
 Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.

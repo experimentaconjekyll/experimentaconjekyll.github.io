@@ -14,14 +14,10 @@ comment: true
 ---
 <br>
 <center>
-<audio controls>
-  <source src="{{ page.podcast_link }}" type="audio/mp3">
-
-</audio>
-
-[Descarga][mp3]
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&"></iframe>
 </center>
-<br>
+
+
 
 En el episodio de hoy vamos a ver como podemos alojar nuestro blog en **GitHub**. Lo haremos utilizando **GitHub-Pages**, que es una opción que da GitHub para hacer una web de los proyectos.
 

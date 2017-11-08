@@ -15,13 +15,7 @@ comment: true
 
 <br>
 <center>
-<audio controls>
-  <source src="{{ page.podcast_link }}" type="audio/mp3">
-
-</audio>
-</center>
-
-<center><p><a href="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3">Descarga</a></p></center>
+<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&"></iframe></center>
 
 <br>
 

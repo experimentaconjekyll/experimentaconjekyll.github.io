@@ -15,12 +15,12 @@ main-class: 'post'
                         <time datetime="{{ post.date | date_to_xmlschema }}">
                             {{ post.date | date: "%B %d, %Y" }}
                         </time>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <a class="post-link" href="{{ post.url | prepend: site.url }}">
                             <h2 class="post-title" itemprop="name">
                                 {{ post.title }}
                             </h2>
                         </a>
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <a class="post-link" href="{{ post.url | prepend: site.url }}">
                             <p class="description">{{ post.introduction }}</p>
                         </a>
                         <div class="tags">
