@@ -2,7 +2,7 @@
 title: Experimenta con Jekyll 
 description: El Podcast con el que aprenderás a crear tu web con el generador de web estáticas Jekyll
 logo: /images/Logo.jpg
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/experimenta-con-jekyll/" # the subpath of your site, e.g. /blog
 url: "https://lormez16.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
