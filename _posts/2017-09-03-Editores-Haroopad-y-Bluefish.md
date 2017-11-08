@@ -9,6 +9,7 @@ tags: Editores
 categories: articulo
 permalink: /editores de markdown/
 introduction: 'Editores de Markdown y de Código que uso.'
+comment: true
 ---
 
 

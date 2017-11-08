@@ -11,6 +11,7 @@ introduction: 'Jekyll es un generador de Blog estáticos. Esto quiere decir que 
 permalink: /1/
 image: /images/Logo.jpg
 podcast_link: https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3
+comment: true
 ---
 <center>
 <iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&"></iframe>

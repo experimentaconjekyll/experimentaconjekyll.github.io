@@ -8,6 +8,7 @@ color: '#EB7728'
 tags: GitHub
 categories: articulo
 permalink: /repositorio en github/
+comment: true
 ---
 
 En el [episodio](https://lormez16.github.io/experimenta-con-jekyll/4/) del podcast de esta semana hemos visto como publicar el blog en GitHub. Para que puedas verlo de una forma visual he preparado este pequeño tutorial de los pasos a seguir.  

@@ -10,6 +10,7 @@ introduction: 'Episodio de presentación del podcast Experimenta con Jekyll'
 permalink: /0/
 image: /images/Logo.jpg
 podcast_link: https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3
+comment: true
 ---
 <center>
 <iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&"></iframe>
