@@ -5,13 +5,13 @@
     <description>El Podcast con el que aprenderás a crear tu web con el generador de web estáticas Jekyll</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Nov 2017 21:31:30 +0100</pubDate>
-    <lastBuildDate>Wed, 08 Nov 2017 21:31:30 +0100</lastBuildDate>
+    <pubDate>Wed, 08 Nov 2017 21:55:31 +0100</pubDate>
+    <lastBuildDate>Wed, 08 Nov 2017 21:55:31 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>#04-Publicando el Blog con GitHub</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;En el episodio de hoy vamos a ver como podemos alojar nuestro blog en &lt;strong&gt;GitHub&lt;/strong&gt;. Lo haremos utilizando &lt;strong&gt;GitHub-Pages&lt;/strong&gt;, que es una opción que da GitHub para hacer una web de los proyectos.&lt;/p&gt; &lt;p&gt;En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.&lt;/p&gt; &lt;p&gt;Para ver como darse de alta y crear...</description>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe id=&quot;audio_20666747&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; height=&quot;200&quot; style=&quot;border:1px solid #EEE; box-sizing:border-box; width:100%;&quot; src=&quot;https://www.ivoox.com/player_ej_20666747_4_1.html?c1=ff6600&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;En el episodio de hoy vamos a ver como podemos alojar nuestro blog en &lt;strong&gt;GitHub&lt;/strong&gt;. Lo haremos utilizando &lt;strong&gt;GitHub-Pages&lt;/strong&gt;, que es una opción que da GitHub para hacer una web de los proyectos.&lt;/p&gt; &lt;p&gt;En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.&lt;/p&gt; &lt;p&gt;Para ver como...</description>
         <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/4/</link>
         <guid isPermaLink="true">http://localhost:4000/4/</guid>

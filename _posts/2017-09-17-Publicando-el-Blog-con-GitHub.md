@@ -12,9 +12,10 @@ image: images/Logo2.jpg
 podcast_link: https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3
 comment: true
 ---
+
 <br>
 <center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20923204_2_1.html?data=k5WmlJiWdJWhhpywj5WbaZS1lJiah5yncZKhhpywj5WRaZi3jpWah5yncYamlJWhj7XZps3dxMbbxtSPqc2fo9HcyZDHs8-fqM7hqtrGcYarpJLZ0dfRqdull5KSmaiRdA..&"></iframe>
+<iframe id='audio_20666747' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_20666747_4_1.html?c1=ff6600"></iframe>
 </center>
 
 
