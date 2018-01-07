@@ -47,6 +47,10 @@
     
     
         <url>
+            <loc>http://localhost:4000/Ruby con RVM/</loc>
+        </url>
+  
+        <url>
             <loc>http://localhost:4000/4/</loc>
         </url>
   

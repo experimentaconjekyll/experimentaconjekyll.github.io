@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
 <link>http://localhost:4000</link>
 <description>Podcast sobre Jekyll y la generación de blog estáticos.</description>
-<lastBuildDate>Wed, 08 Nov 2017 21:55:31 +0100</lastBuildDate>
+<lastBuildDate>Sun, 07 Jan 2018 21:51:13 +0100</lastBuildDate>
 <language>es-es</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -59,6 +59,9 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <description>
         <![CDATA[
 
+ 
+  
+
 
 
 
@@ -67,8 +70,11 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <content:encoded>
         <![CDATA[<p><br /></p>
 <center>
-<iframe id="audio_20666747" frameborder="0" allowfullscreen="" scrolling="no" height="200" style="border:1px solid #EEE; box-sizing:border-box; width:100%;" src="https://www.ivoox.com/player_ej_20666747_4_1.html?c1=ff6600"></iframe>
+ <audio controls="">
+  <source src="https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>En el episodio de hoy vamos a ver como podemos alojar nuestro blog en <strong>GitHub</strong>. Lo haremos utilizando <strong>GitHub-Pages</strong>, que es una opción que da GitHub para hacer una web de los proyectos.</p>
 
@@ -164,14 +170,20 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
     <enclosure url="https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3" length="" type="audio/mpeg" />
     <itunes:subtitle><![CDATA[
 
+ 
+  
+
 
 
 
 ]]></itunes:subtitle>
     <itunes:summary><![CDATA[<p><br /></p>
 <center>
-<iframe id="audio_20666747" frameborder="0" allowfullscreen="" scrolling="no" height="200" style="border:1px solid #EEE; box-sizing:border-box; width:100%;" src="https://www.ivoox.com/player_ej_20666747_4_1.html?c1=ff6600"></iframe>
+ <audio controls="">
+  <source src="https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>En el episodio de hoy vamos a ver como podemos alojar nuestro blog en <strong>GitHub</strong>. Lo haremos utilizando <strong>GitHub-Pages</strong>, que es una opción que da GitHub para hacer una web de los proyectos.</p>
 
@@ -286,16 +298,15 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
     <description>
         <![CDATA[
 
-
-
-
-
 ]]>
     </description>
     <content:encoded>
         <![CDATA[<p><br /></p>
+
 <center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;"></iframe>
+ <audio controls="">
+  <source src="https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3" type="audio/mp3" />
+</audio>
 </center>
 <p><br /></p>
 
@@ -305,7 +316,7 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
 
 <p>Los <strong>archivos</strong> que encontramos en el directorio son los siguientes:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ tree
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tree
 
 ├── about.md
 ├── _config.yml
@@ -316,30 +327,28 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
 
 1 directory, 5 files
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="yaml-front-matter">Yaml Front Matter</h3>
 <p>Lo encontramos en la parte alta de muchos de los ficheros del proyecto, paginas, post y layout. En él se definen las variables que queremos usar en distintas partes de nuestra web.</p>
 
 <p>El siguiente ejemplo es el típico de un post.</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-08-25 21:16:43 +0200
 categories: jekyll update
 ---
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="el-archivo-_configyml">El archivo _config.yml</h3>
 
 <p>En este archivo cambiaremos los datos que trae  por los nuestros. Título, descripción, correo y usuario de Twitter.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>title: Your awesome title
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title: Your awesome title
 
 email: your-email@domain.com
 
@@ -362,8 +371,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
@@ -404,14 +412,13 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
     <enclosure url="https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3" length="" type="audio/mpeg" />
     <itunes:subtitle><![CDATA[
 
-
-
-
-
 ]]></itunes:subtitle>
     <itunes:summary><![CDATA[<p><br /></p>
+
 <center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;"></iframe>
+ <audio controls="">
+  <source src="https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3" type="audio/mp3" />
+</audio>
 </center>
 <p><br /></p>
 
@@ -421,7 +428,7 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
 
 <p>Los <strong>archivos</strong> que encontramos en el directorio son los siguientes:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ tree
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tree
 
 ├── about.md
 ├── _config.yml
@@ -432,30 +439,28 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
 
 1 directory, 5 files
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="yaml-front-matter">Yaml Front Matter</h3>
 <p>Lo encontramos en la parte alta de muchos de los ficheros del proyecto, paginas, post y layout. En él se definen las variables que queremos usar en distintas partes de nuestra web.</p>
 
 <p>El siguiente ejemplo es el típico de un post.</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-08-25 21:16:43 +0200
 categories: jekyll update
 ---
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="el-archivo-_configyml">El archivo _config.yml</h3>
 
 <p>En este archivo cambiaremos los datos que trae  por los nuestros. Título, descripción, correo y usuario de Twitter.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>title: Your awesome title
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title: Your awesome title
 
 email: your-email@domain.com
 
@@ -478,8 +483,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <p>Para cualquier duda o comentario que quieras hacerme, puedes contactar conmigo en <strong>Twitter</strong> y <strong>Telegram</strong> como <strong>@lormez16</strong> y también en el correo <strong>experimentaconjekyll@gmail.com</strong>.</p>
@@ -539,6 +543,9 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
     <description>
         <![CDATA[
 
+ 
+  
+
 
 
 ]]>
@@ -546,7 +553,10 @@ var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
     <content:encoded>
         <![CDATA[<p><br /></p>
 <center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;"></iframe></center>
+ <audio controls="">
+  <source src="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3" type="audio/mp3" />
+</audio>
+</center>
 
 <p><br /></p>
 
@@ -630,12 +640,18 @@ License Creative Commons</p>
     <enclosure url="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3" length="" type="audio/mpeg" />
     <itunes:subtitle><![CDATA[
 
+ 
+  
+
 
 
 ]]></itunes:subtitle>
     <itunes:summary><![CDATA[<p><br /></p>
 <center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;"></iframe></center>
+ <audio controls="">
+  <source src="https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3" type="audio/mp3" />
+</audio>
+</center>
 
 <p><br /></p>
 
@@ -736,20 +752,28 @@ License Creative Commons</p>
     <description>
         <![CDATA[
 
+ 
+  
+
+
 
 
 ]]>
     </description>
     <content:encoded>
-        <![CDATA[<center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;"></iframe>
+        <![CDATA[<p><br /></p>
+<center>
+ <audio controls="">
+  <source src="https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.</p>
 
 <p><strong>La Estructura básica</strong> de un sitio hecho con Jekyll es la siguiente:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 ├── _config.yml
 ├── _includes
 │   ├── footer.html
@@ -768,8 +792,7 @@ License Creative Commons</p>
 ├── css
 │   └── minima.css
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <hr />
 
@@ -790,18 +813,26 @@ License Creative Commons</p>
     <enclosure url="https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3" length="" type="audio/mpeg" />
     <itunes:subtitle><![CDATA[
 
+ 
+  
+
+
 
 
 ]]></itunes:subtitle>
-    <itunes:summary><![CDATA[<center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;"></iframe>
+    <itunes:summary><![CDATA[<p><br /></p>
+<center>
+ <audio controls="">
+  <source src="https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.</p>
 
 <p><strong>La Estructura básica</strong> de un sitio hecho con Jekyll es la siguiente:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 ├── _config.yml
 ├── _includes
 │   ├── footer.html
@@ -820,8 +851,7 @@ License Creative Commons</p>
 ├── css
 │   └── minima.css
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <hr />
 
@@ -859,14 +889,22 @@ License Creative Commons</p>
     <description>
         <![CDATA[
 
+ 
+  
+
+
 
 
 ]]>
     </description>
     <content:encoded>
-        <![CDATA[<center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+        <![CDATA[<p><br /></p>
+<center>
+ <audio controls="">
+  <source src="https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>Bienvenido al episodio de presentación de este podcast, <strong>Experimenta con Jekyll</strong>. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.</p>
 
@@ -876,12 +914,20 @@ License Creative Commons</p>
     <enclosure url="https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3" length="" type="audio/mpeg" />
     <itunes:subtitle><![CDATA[
 
+ 
+  
+
+
 
 
 ]]></itunes:subtitle>
-    <itunes:summary><![CDATA[<center>
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;"></iframe>
+    <itunes:summary><![CDATA[<p><br /></p>
+<center>
+ <audio controls="">
+  <source src="https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3" type="audio/mp3" />
+</audio>
 </center>
+<p><br /></p>
 
 <p>Bienvenido al episodio de presentación de este podcast, <strong>Experimenta con Jekyll</strong>. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.</p>
 

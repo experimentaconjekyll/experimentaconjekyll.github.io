@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Tutorial | Instalar Ruby con Ruby Version Manager (RVM)",
+      "tags"     : "Ruby, and Jekyll",
+      "categories"     : "post",
+      "url"      : "/Ruby con RVM/",
+      "date"     : "07 Jan 2018"
+    } ,
+  
+    {
       "title"    : "#04-Publicando el Blog con GitHub",
       "tags"     : "Jekyll, GitHub, and Git",
       "categories"     : "podcast",

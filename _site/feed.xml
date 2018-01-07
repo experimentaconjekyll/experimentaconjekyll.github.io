@@ -5,13 +5,29 @@
     <description>El Podcast con el que aprenderás a crear tu web con el generador de web estáticas Jekyll</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Nov 2017 21:55:31 +0100</pubDate>
-    <lastBuildDate>Wed, 08 Nov 2017 21:55:31 +0100</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Sun, 07 Jan 2018 21:51:13 +0100</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2018 21:51:13 +0100</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Tutorial | Instalar Ruby con Ruby Version Manager (RVM)</title>
+        <description>&lt;p&gt;Recientemente cambié de sistema operativo. Tenía &lt;strong&gt;Manjaro&lt;/strong&gt; y decidí instalar &lt;strong&gt;Linux Mint 18.3 XFCE&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Para poder deguir usando Jekyll en Local debía de volver a instalarlo. Comprobé que Ruby ya venía instalado así que me dispuse a instalar Jekyll con el comando gem.&lt;/p&gt; &lt;p&gt;Para mi sorpresa no fue posible. Me daba errores de acceso a la carpeta de las gemas. Probé varias soluciones que encontré por internet y ninguna me solucionó el problema.&lt;/p&gt; &lt;p&gt;Entonces me dijeron que lo mejor era instalar Ruby a través de &lt;strong&gt;RVM&lt;/strong&gt;, Ruby Version Manager, que nos permite poder utilizar varias versiones de ruby o de...</description>
+        <pubDate>Sun, 07 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/Ruby con RVM/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ruby con RVM/</guid>
+        
+        <category>Ruby,</category>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>articulo</category>
+        
+      </item>
     
       <item>
         <title>#04-Publicando el Blog con GitHub</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe id=&quot;audio_20666747&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; height=&quot;200&quot; style=&quot;border:1px solid #EEE; box-sizing:border-box; width:100%;&quot; src=&quot;https://www.ivoox.com/player_ej_20666747_4_1.html?c1=ff6600&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;En el episodio de hoy vamos a ver como podemos alojar nuestro blog en &lt;strong&gt;GitHub&lt;/strong&gt;. Lo haremos utilizando &lt;strong&gt;GitHub-Pages&lt;/strong&gt;, que es una opción que da GitHub para hacer una web de los proyectos.&lt;/p&gt; &lt;p&gt;En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.&lt;/p&gt; &lt;p&gt;Para ver como...</description>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;audio controls=&quot;&quot;&gt; &lt;source src=&quot;https://ia801508.us.archive.org/0/items/04PublicandoElBlogConGitHub/04-Publicando%20el%20blog%20con%20GitHub.mp3&quot; type=&quot;audio/mp3&quot; /&gt; &lt;/audio&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;En el episodio de hoy vamos a ver como podemos alojar nuestro blog en &lt;strong&gt;GitHub&lt;/strong&gt;. Lo haremos utilizando &lt;strong&gt;GitHub-Pages&lt;/strong&gt;, que es una opción que da GitHub para hacer una web de los proyectos.&lt;/p&gt; &lt;p&gt;En el episodio anterior analizamos los archivos de nuestro proyecto e hicimos unas mínimas modificaciones en el archivo de configuración. Ahora solo nos queda publicar nuestra web.&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar el la terminal una vez que ya tenemos nuestro usuario y repositorio en GitHub.&lt;/p&gt; &lt;p&gt;Para ver como darse de alta...</description>
         <pubDate>Sun, 17 Sep 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/4/</link>
         <guid isPermaLink="true">http://localhost:4000/4/</guid>
@@ -57,7 +73,7 @@
     
       <item>
         <title>#03-Analizando los archivos del proyecto</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20666747_2_1.html?data=k5WjmJubeJihhpywj5WcaZS1lZiah5yncZKhhpywj5aRaZi3jpWah5yncYamlJWgj6bSpc3d28bbxtSPsNDnjMbfxc3NutDnjMnSzpDUttDtxsjh0ZKJe6ShzdTfz8redZehhpywj5U.&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;En el episodio de hoy vamos a analizar el proyecto que hemos creado en local. Veremos que archivos tenemos y haremos unas mínimas modificaciones en el archivo de configuración.&lt;/p&gt; &lt;p&gt;Si ya los has estado mirando espero que este episodio te ayude a comprenderlos mejor. Y si no lo has hecho este es el mejor momento para continuar el proyecto y analizarlos.&lt;/p&gt; &lt;p&gt;Los &lt;strong&gt;archivos&lt;/strong&gt; que encontramos en el directorio son los siguientes:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ tree ├── about.md ├── _config.yml ├── Gemfile ├── index.md └── _posts └── 2017-08-25-welcome-to-jekyll.markdown...</description>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;audio controls=&quot;&quot;&gt; &lt;source src=&quot;https://ia801507.us.archive.org/11/items/03AnalizandoLosArchivosDelProyecto/03-Analizando%20los%20archivos%20del%20proyecto.mp3&quot; type=&quot;audio/mp3&quot; /&gt; &lt;/audio&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;En el episodio de hoy vamos a analizar el proyecto que hemos creado en local. Veremos que archivos tenemos y haremos unas mínimas modificaciones en el archivo de configuración.&lt;/p&gt; &lt;p&gt;Si ya los has estado mirando espero que este episodio te ayude a comprenderlos mejor. Y si no lo has hecho este es el mejor momento para continuar el proyecto y analizarlos.&lt;/p&gt; &lt;p&gt;Los &lt;strong&gt;archivos&lt;/strong&gt; que encontramos en el directorio son los siguientes:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ tree ├── about.md ├── _config.yml ├── Gemfile ├── index.md └── _posts └──...</description>
         <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/3/</link>
         <guid isPermaLink="true">http://localhost:4000/3/</guid>
@@ -73,7 +89,7 @@
     
       <item>
         <title>#02-Creando nuestro blog con Jekyll en local</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_20207621_2_1.html?data=k5WfkpyadpKhhpywj5WcaZS1k5aah5yncZKhhpywj5aRaZi3jpWah5yncaTmxsbbxtSPstbZ1Nnf0ZDGsNDbjMjc0JCuqcztzdGYx9OPsNDXwtGah5yncc3j09LS3JaacYarpJKd&amp;amp;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Para crear nuestro primer blog y trabajar de forma local seguiremos los pasos indicados en la web principal de &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. En el mismo home te da las 4 lineas de comandos que necesitas para tener tu blog disponible en apenas unos minutos&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar.:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Paso 1&lt;/strong&gt;&lt;br /&gt; Abrimos la terminal y realizamos primero la comprobación de ruby escribiendo:&lt;/p&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Si está instalado te dará la versión de Ruby que tengas. En caso de no tenerlo lo instalas desde los...</description>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;audio controls=&quot;&quot;&gt; &lt;source src=&quot;https://archive.org/download/02CreandoNuestroBlogConJekyllEnLocal/02-Creando%20nuestro%20blog%20con%20Jekyll%20en%20local.mp3&quot; type=&quot;audio/mp3&quot; /&gt; &lt;/audio&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Para crear nuestro primer blog y trabajar de forma local seguiremos los pasos indicados en la web principal de &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. En el mismo home te da las 4 lineas de comandos que necesitas para tener tu blog disponible en apenas unos minutos&lt;/p&gt; &lt;p&gt;Veamos entonces que comandos hay que ejecutar.:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Paso 1&lt;/strong&gt;&lt;br /&gt; Abrimos la terminal y realizamos primero la comprobación de ruby escribiendo:&lt;/p&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby -v&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Si está instalado te dará la versión de Ruby que tengas. En caso de no tenerlo lo instalas desde...</description>
         <pubDate>Mon, 07 Aug 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2/</link>
         <guid isPermaLink="true">http://localhost:4000/2/</guid>
@@ -89,7 +105,7 @@
     
       <item>
         <title>#01-Qué es Jekyll y su estructura de archivos</title>
-        <description>&lt;center&gt; &lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_18788794_2_1.html?data=kp2kmp2bfZWhhpywj5WbaZS1lZiah5yncZKhhpywj5eRaZi3jpaah5yncbLphqigh6adb8bnjK_Szd7QsIztjNjijcrXuNPpxNni1MaPqMafwtfQys7as9Shhpywj9HTts7Z25ajj4qbh46k&amp;amp;&quot;&gt;&lt;/iframe&gt; &lt;/center&gt; &lt;p&gt;Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;La Estructura básica&lt;/strong&gt; de un sitio hecho con Jekyll es la siguiente:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ├── _config.yml ├── _includes │   ├── footer.html │   ├── header.html │   ├── index.md ├── _layouts │   ├── home.html │   ├── page.html │   ├── post.html ── _posts │   ├── 2017-05-02-experimenta-con-jekyll-Presentación.markdown │ ├── _sass │  ...</description>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;center&gt; &lt;audio controls=&quot;&quot;&gt; &lt;source src=&quot;https://archive.org/download/01QueEsJekyll/01-Que%20es%20Jekyll.mp3&quot; type=&quot;audio/mp3&quot; /&gt; &lt;/audio&gt; &lt;/center&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Jekyll es un generador de Blog estáticos. Esto quiere decir que generaremos nuestro blog a partir de una serie de archivos de texto. No necesita un gestor de contenidos ni una base de datos. Ni tampoco PHP como las web dinámicas estilo Wordpress.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;La Estructura básica&lt;/strong&gt; de un sitio hecho con Jekyll es la siguiente:&lt;/p&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ├── _config.yml ├── _includes │   ├── footer.html │   ├── header.html │   ├── index.md ├── _layouts │   ├── home.html │   ├── page.html │   ├── post.html ── _posts │   ├──...</description>
         <pubDate>Thu, 18 May 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/1/</link>
         <guid isPermaLink="true">http://localhost:4000/1/</guid>
@@ -103,9 +119,13 @@
     
       <item>
         <title>Experimenta con Jekyll | Presentación</title>
-        <description>&lt;center&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; scrolling=&quot;no&quot; src=&quot;http://www.ivoox.com/player_ej_18788795_2_1.html?data=kp2kmp2bfZahhpywj5WXaZS1lZeah5yncZKhhpywj5aRaZi3jpWah5yncabs0crfy9LJstXVjMjc0JCuqcztzdGYh5ynb7HmxtjS0NnFp8qZpJiSpJjScYarpJLZ0dfRqdull5KSmaiRdA..&amp;amp;&quot;&gt;&lt;/iframe&gt;
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+ &lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;https://archive.org/download/00ExperimentaConJekyll/00-Experimenta%20con%20Jekyll.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+&lt;/audio&gt;
 &lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bienvenido al episodio de presentación de este podcast, &lt;strong&gt;Experimenta con Jekyll&lt;/strong&gt;. Hoy comienzo este nuevo proyecto que tratará principalmente sobre Jekyll, un generador de blog estáticos con el que podemos hacer nuestro blog.&lt;/p&gt;
 
